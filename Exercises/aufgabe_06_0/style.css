@@ -1,0 +1,38 @@
+
+.container{
+    background-color:yellow;
+    display: flex;
+    height: 100px;
+    justify-content: end;
+    flex-direction: row;
+    align-items: end;
+
+}
+
+.box{
+    background-color: green;
+    width:30px;
+    height:30px;
+    margin: 4px;
+}
+
+.boxblue{
+
+    background-color: aqua;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    display: flex;
+}
+
+.boxbrown{
+
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
