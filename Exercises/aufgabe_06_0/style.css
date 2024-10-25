@@ -5,15 +5,18 @@
     height: 100px;
     justify-content: end;
     flex-direction: row;
-    align-items: end;
+    align-items: center;
 
 }
 
-.box{
+.boxgreen{
     background-color: green;
+    position: relative;
     width:30px;
     height:30px;
     margin: 4px;
+    right: 25px;
+
 }
 
 .boxblue{
@@ -62,7 +65,6 @@
     position: relative;
     margin-top: 20px;
     margin-left: 20px;
-    margin-bottom: 20px;
-
+    margin-bottom: 20px; 
 
 }
