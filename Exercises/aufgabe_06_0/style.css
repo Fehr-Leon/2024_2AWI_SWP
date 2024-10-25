@@ -25,6 +25,7 @@
     left: 20px;
     top: 20px;
     display: flex;
+    flex-direction: column;
 }
 
 .boxbrown{
@@ -35,4 +36,33 @@
     position: absolute;
     bottom: 0px;
     right: 0px;
+}
+
+.boxpurple{
+
+    background-color: purple;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.text{
+
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin-left: 20px;
+
+}
+
+#Willkommen{
+
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+
 }
