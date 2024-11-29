@@ -1,61 +1,54 @@
+.bluebox {
+    background-color: aqua;
+    height: 400px;
+    width: 200px;
+    position: relative;
+    left: 40px;
+    top: 40px;
 
 
 
-    .bluebox{
-        background-color: aqua;
-        height: 400px;
-        width: 200px;
-        position: relative;
-        left: 40px;
-        top: 40px;
-        
-        
+}
 
-    }
+.blackbox {
+    position: absolute;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    margin-top: -20px;
+    margin-left: -20px;
 
-    .blackbox{
-        position: absolute;
-        background-color: black;
-        height: 50px;
-        width: 50px;
-        margin-top: -20px;
-        margin-left: -20px;
+}
 
-    }   
+.container {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 40px;
 
-    .container{
-        display: flex;
-        height: 100px;
-        justify-content: space-evenly;
-        flex-direction: row;
-        align-items: center;
-        margin-top: 50px;
-        position: relative;
-        border-width: 1px;
-        border-style: solid;
-        border-color: black;
-        
-        
-    }
-    
-    .greenbox1{
-        background-color: green;
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        right: 0px;
-        bottom: 0px;
-        
-        
-    }
 
-    .greenbox2{
-        background-color: green;
-        height: 20px;
-        width: 40px;
-        display: flex;
-        justify-content: space-evenly;
-        
-    
+}
 
-    }
+.greenbox1 {
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+
+}
+
+.greenbox2 {
+    background-color: green;
+    height: 20px;
+    width: 40px;
+    display: flex;
+}
