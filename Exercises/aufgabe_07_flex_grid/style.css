@@ -1,32 +1,33 @@
 .bigcontainer {
-    height: calc(100% - 200px);
     width: calc(100% - 200px);
-    margin: 100px;
+    height: calc(100% - 200px);
     display: grid;
-    grid-template-columns: 50% 50%;
+    margin: 100px;
+    grid-template-columns: 1fr 1fr;
     column-gap: 20px;
     row-gap: 20px;
-    padding: 10px;
     box-sizing: border-box;
+    padding: 10px;
 
 }
+
 
 .container1 {
     grid-template-columns: 33% 33% 33%;
     grid-auto-rows: 100px;
-    padding: 10px;
     box-sizing: border-box;
     display: grid;
     gap: 10px;
+    padding: 10px;
 }
 
 .container2 {
     grid-template-columns: 50% 50%;
-    grid-auto-rows: 200px;
-    padding: 10px;
+    grid-template-rows: 50% 50%;
     box-sizing: border-box;
     display: grid;
     gap: 10px;
+    padding: 10px;
 }
 
 .box {
