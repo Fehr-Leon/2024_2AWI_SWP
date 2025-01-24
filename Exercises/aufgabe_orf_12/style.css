@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+    color: white;
 }
 
 .middleheader {
@@ -25,7 +26,7 @@
     padding: 10px;
     font-size: 40px;
     position: relative;
-
+    color: white;
 }
 
 .bottomheader {
@@ -36,6 +37,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    color: white;
 }
 
 
@@ -50,4 +52,40 @@ img {
     width: 100%;
 }
 
-.Containertxt {}
+.containertxt {
+    margin: 200px;
+}
+
+.containertop {
+    position: relative;
+    padding: 70px;
+
+}
+
+.top {
+    background-color: white;
+    position: relative;
+    top: -100px;
+    height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    color: grey;
+}
+
+.bottom {
+    background-color: white;
+    position: relative;
+    top: -110px;
+    height: 0px;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.containerbottom {
+    background-color: white;
+    position: relative;
+    padding: 10px;
+    height: 100%;
+    font-size: 20px;
+    top: -60px;
+}
