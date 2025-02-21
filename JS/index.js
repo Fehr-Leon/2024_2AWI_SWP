@@ -1,6 +1,6 @@
 // 1. Keyword (Schlüsselwort): let
 // 2. variable (variable): result
-// 3. expression (Ausdruck,Term+ 2
+// 3. expression (Ausdruck,Term): 1 + 2
 // 4. zuweisung: =
 // 5. terminator: ;
 // ==> statement: let result = 1 + 2;
@@ -167,9 +167,58 @@ for (let i = 0; i < 10; i++) {
     }
 }
 
-let sumOFEvenNumbers = 0;
+let summOfEvenNumbers = 0;
 for (let i = 0; i < 10; i = i + 1) {
     if (1 % 2 == 0) {
 
     }
 }
+
+
+// functions
+function summm(n1, n2) {
+    return n1 + n2
+}
+
+
+let n1 = 5;
+let n2 = 10;
+
+let resultSum = n1 + n2;
+
+result = summm(5, 10);
+
+// function kx + d, k = 10, d = 5
+function linearStraight(x) {
+    return 10 * x + 5
+}
+
+summm(10, 15);
+
+// 1. keyword function
+// 2. name of the function we want to declare (definieren)
+// 3. ()
+// 4. with the bracket we can hand in parameters to the function
+// 5. opening curly brace {
+// 6. statements
+// 7. optionally a return
+// 8. closing curly brace }
+function log(text, repeat) {
+
+    // for loop:
+    // 1. declare variable i and initialize it to 1: let i = 1
+    // 2. check the conditial expression
+    // (i < result), i = 1 and repeat = 10 => 1 < 10 = true
+    // 3. if the condistion is still true, then execute statements within the curly braces { }
+    //    in our case this is to execute the statements "console.log(i + ": " + text);"
+    // 4. i = i + 1 => i = 1 => i = 1 + 1 = > i = 2
+    // repeat till 10
+    let i = 100;
+
+    for (let i = 1; i <= 10; i = i + 1) {
+        console.log(i + ": " + text);
+    }
+    console.log("value i is: " + i); // inner scope(umfang) of the for loop
+}
+
+log("hallo welt", 10)
