@@ -222,3 +222,8 @@ function log(text, repeat) {
 }
 
 log("hallo welt", 10)
+log("hallo world", 5)
+
+const sumFuncVar = function (a, b) {
+    return a + b
+}
