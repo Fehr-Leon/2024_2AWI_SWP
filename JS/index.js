@@ -227,3 +227,6 @@ log("hallo world", 5)
 const sumFuncVar = function (a, b) {
     return a + b
 }
+
+
+
