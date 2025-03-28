@@ -1,9 +1,21 @@
 
 let input = "ATGCTTCAGAAAAGGTCAGCG";
-let arr = input.split("");
 
-console.log(arr);
+let A = 0;
+let C = 0;
+let G = 0;
+let T = 0;
 
-if (arr < 0 && arr > 1000) {
-
+if (input.length > 0 && input.length < 1000) {
+    for (let i = 0; i <= input.length; i++) {
+        if (input[i] == "A") {
+            A += 1;
+        } else if (input[i] == "C") {
+            C += 1;
+        } else if (input[i] == "G") {
+            G += 1;
+        } else if (input[i] == "T") {
+            T += 1;
+        }
+    } console.log(A, C, G, T);
 }
