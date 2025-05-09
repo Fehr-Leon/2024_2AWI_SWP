@@ -1,0 +1,52 @@
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#inputA {
+    background-color: aqua;
+    height: 40px;
+    width: 40px;
+    padding-left: 20px;
+}
+
+#inputB {
+    background-color: aqua;
+    height: 40px;
+    width: 40px;
+    padding-left: 20px;
+}
+
+#addieren {
+    background-color: red;
+
+}
+
+#subtrahieren {
+    background-color: green;
+}
+
+#multiplizieren {
+    background-color: lightblue;
+}

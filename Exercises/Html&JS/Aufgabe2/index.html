@@ -6,18 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1 id="heading"> Super Page</h1>
     <div id="content">
-        A: <input type="number" id="inputA" value=20 />
-        B: <input type="number" id="inputB" value=30 />
-        <button id="calculate" onclick="calculateSum()">Calculate</button>
+        <input type="number" id="inputA" value=20 />
+        <input type="number" id="inputB" value=30 />
+    </div>
+    <div id="buttons">
+        <button id="addieren" onclick="calculateAd()">+</button>
+        <button id="subtrahieren" onclick="calculateSub()">-</button>
+        <button id="multiplizieren" onclick="calculateMult()">*</button>
+        <button id="dividieren" onclick="calculateDiv()">/</button>
     </div>
     <div>
-        Result:
-        <span id="result"> result </span>
+
+        <div id="output"></div>
     </div>
 
 

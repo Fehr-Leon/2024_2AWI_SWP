@@ -1,14 +1,65 @@
-function calculateSum() {
+function calculateAd() {
     console.log("Calcutale clicked!");
 
 
     inputA = document.getElementById("inputA").value;
     inputB = document.getElementById("inputB").value;
 
-    console.log("inputA: " + inputA);
-    console.log("inputB: " + inputB);
 
-    let result = inputA + inputB;
+    let result = Number(inputA) + Number(inputB);
 
-    console.log(result);
+    let output = document.getElementById("output");
+
+    output.innerHTML = result
 }
+
+function calculateSub() {
+    console.log("Calculate clicked!");
+
+    inputA = document.getElementById("inputA").value;
+    inputB = document.getElementById("inputB").value;
+
+
+    let result = Number(inputA) - Number(inputB);
+
+    let output = document.getElementById("output");
+
+    output.innerHTML = result
+
+}
+
+
+function calculateMult() {
+    console.log("Calculate clicked!");
+
+    inputA = document.getElementById("inputA").value;
+    inputB = document.getElementById("inputB").value;
+
+
+    let result = Number(inputA) * Number(inputB);
+
+    let output = document.getElementById("output");
+
+    output.innerHTML = result
+
+
+}
+
+
+
+function calculateDiv() {
+    console.log("Calculate clicked!");
+
+    inputA = document.getElementById("inputA").value;
+    inputB = document.getElementById("inputB").value;
+
+
+    let result = Number(inputA) / Number(inputB);
+
+    let output = document.getElementById("output");
+
+    output.innerHTML = result
+
+
+}
+
