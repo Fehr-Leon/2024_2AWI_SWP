@@ -1,0 +1,23 @@
+.Head {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: aqua;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
+.Result {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {}
