@@ -1,14 +1,4 @@
-.header {
-    display: flex;
-    justify-content: center;
-}
-
-.middle {
-    display: flex;
-    justify-content: center;
-}
-
-.Result {
+#header {
     display: flex;
     justify-content: center;
 }

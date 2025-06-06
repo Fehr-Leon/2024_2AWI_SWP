@@ -6,26 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <script src="index.js" defer></script>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="Head">
-        <div class="header">Mini Rechner</div>
-        <div class="all">
-            <div class="middle">
-                <div class="inputs">
-                    <input type="number" id="inputA" value=1>
-                    <input type="number" id="inputB" value=20>
-                </div>
-                <div class="footer">
-                    <button id="generate" onclick="generate()">Generate</button>
-                </div>
-            </div>
-            <div class="Result">
-                <div id="result"></div>
-            </div>
+    <div id="header">
+        <div id="inputs">
+            <input type="number" id="InputA">
+            <input type="number" id="InputB">
+        </div>
+        <div>
+            <button id="generate" onclick="generate()">Generate</button>
+            <div id="randomNumber"></div>
         </div>
     </div>
 </body>
